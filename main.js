@@ -123,8 +123,6 @@
 
     $(window).load(function(){
     	$('.preloader-wrapper').fadeOut();
-        $(window).scroll(function(){
-            $(this).scrollTop(0, 0);
-        });
+        $('html').css('overflow', 'hidden');
     })
 })(jQuery);
