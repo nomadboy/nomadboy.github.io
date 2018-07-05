@@ -118,8 +118,8 @@
         });
         
         $('html, body').css({
-            overflow: 'hidden',
-            height: '100%'
+            overflow: 'auto',
+            height: 'auto'
         });
 
 
