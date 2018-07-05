@@ -116,6 +116,11 @@
                 scrollTop: 0
             }, 500);
         });
+        
+        $('html, body').css({
+            overflow: 'hidden',
+            height: '100%'
+        });
 
 
         //end document-ready
