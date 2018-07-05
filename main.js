@@ -116,11 +116,6 @@
                 scrollTop: 0
             }, 500);
         });
-        
-        $('html, body').css({
-            overflow: 'hidden',
-            height: '100%'
-        });
 
 
         //end document-ready
@@ -128,9 +123,5 @@
 
     $(window).load(function(){
     	$('.preloader-wrapper').fadeOut();
-        $('html, body').css({
-            overflow: 'auto',
-            height: 'auto'
-        });
     })
 })(jQuery);
