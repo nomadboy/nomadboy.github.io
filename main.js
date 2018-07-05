@@ -118,8 +118,8 @@
         });
         
         $('html, body').css({
-            overflow: 'auto',
-            height: 'auto'
+            overflow: 'hidden',
+            height: '100%'
         });
 
 
@@ -129,8 +129,8 @@
     $(window).load(function(){
     	$('.preloader-wrapper').fadeOut();
         $('html, body').css({
-            overflow: 'hidden',
-            height: '100%'
+            overflow: 'auto',
+            height: 'auto'
         });
     })
 })(jQuery);
