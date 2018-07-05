@@ -123,6 +123,9 @@
 
     $(window).load(function(){
     	$('.preloader-wrapper').fadeOut();
-        $('html').css('overflow', 'hidden');
+        $('html, body').css({
+            overflow: 'hidden',
+            height: '100%'
+        });
     })
 })(jQuery);
