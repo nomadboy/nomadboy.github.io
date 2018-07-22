@@ -109,6 +109,18 @@
             }
         });
 
+
+        //Faq section
+        $(".open").click( function () {
+          var container = $(this).parents(".topic");
+          var answer = container.find(".answer");
+          var plusMinus = $(this).find('.fa-plus');
+          answer.slideToggle(200);
+          container.toggleClass('expanded');
+          plusMinus.toggleClass('fa-minus');
+        });
+
+
         //activation scrollTop with animation
 
         $('.scrollTop').click(function() {
