@@ -23,6 +23,6 @@
 
 	mail($to, $email_subject, $email_body, $header);
 
-	header("Location: index.php");
+	header("Location: index.html");
 
  ?>
