@@ -1,10 +1,10 @@
 <?php 
 
-	$name = $_GET['name'];
+	$name = $_POST['name'];
 
-	$user_email = $_GET['email'];
+	$user_email = $_POST['email'];
 
-	$message = $_GET['message'];
+	$message = $_POST['message'];
 
 	$email_from = 'boynomad008@gmail.com';
 
