@@ -132,8 +132,4 @@
 
         //end document-ready
     });
-
-    $(window).load(function(){
-    	$('.preloader-wrapper').fadeOut();
-    })
 })(jQuery);
